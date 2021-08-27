@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.table {
+  padding: 30px;
+}
+
+.input-fields {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 10px 10px;
+}
+
+form {
+  text-align: center;
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+}
